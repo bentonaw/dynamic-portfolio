@@ -1,8 +1,8 @@
 import "./splash.css";
 
-export default function Splash() {
-	return (
-		<section className="splash">
+const Splash = () => {
+  return (
+	<section className="splash">
 			<h1>Welcome to My Portfolio</h1>
 			<p>
 				I am a web developer with a passion for creating beautiful and
@@ -17,5 +17,7 @@ export default function Splash() {
 				<h2 className="scroll">Scroll down</h2>
 			</div>
 		</section>
-	);
+  )
 }
+
+export default Splash

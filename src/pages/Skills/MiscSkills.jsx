@@ -1,7 +1,7 @@
 import data from "../../assets/data.json";
 
-export default function MiscSkills() {
-	return (
+const MiscSkills = () => {
+  return (
 		<div className="skills">
 			{data.miscSkills.map((skills, index) => (
 				<div key={index} className="card">
@@ -11,3 +11,5 @@ export default function MiscSkills() {
 		</div>
 	);
 }
+
+export default MiscSkills
