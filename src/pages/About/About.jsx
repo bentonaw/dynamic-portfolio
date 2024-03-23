@@ -1,9 +1,8 @@
-import "../../styles/about.css";
+import "../Skills/skills.css";
 import Education from "./Education";
-import DevSkills from "./DevSkills";
-import MiscSkills from "./MiscSkills";
+import DevSkills from "../Skills/DevSkills";
+import MiscSkills from "../Skills/MiscSkills";
 import Experience from "./Experience";
-import "../../styles/skills.css";
 
 export default function About() {
 	return (
