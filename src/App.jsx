@@ -6,16 +6,20 @@ import Footer from "./Components/Footer";
 import "./styles/global.css";
 import Splash from "./pages/Splash/Splash";
 
+import { BrowserRouter, Routes, Route} from "react-router-dom"
+
 function App() {
 	return (
-		<>
+		<BrowserRouter>
 			<Header />
-			<Splash />
-			<About />
-			<Portfolio />
-			<Contact />
+			<Routes>
+				<Route path="/" element={<Splash />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/portfolio" element={<Portfolio />} />
+				<Route path="/contact" element={<Contact />} />
+			</Routes>
 			<Footer />
-		</>
+		</BrowserRouter>
 	);
 }
 
