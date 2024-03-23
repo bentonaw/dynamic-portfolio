@@ -1,0 +1,102 @@
+{
+	"education": [
+		{
+			"school": "Chas Academy",
+			"degree": "Full-Stack Web Development (.NET)",
+			"graduated": "2023 -",
+			"description": "Vocational education for software development (specializing in a fullstack .NET framework)"
+		},
+		{
+			"school": "The Swedish School of Textiles",
+			"degree": "BSc in Business Administration and Textile Management with a Specialization in Fashion and Textiles",
+			"graduated": "2012 - 2015",
+			"description": "Some description"
+		}
+	],
+
+	"experience": [
+		{
+			"company": "H&M",
+			"title": "Junior Planner",
+			"location": "Stockholm, Sweden",
+			"from": "2022.11",
+			"to": "2023.04",
+			"description": "Some description"
+		},
+		{
+			"company": "Happy Socks",
+			"title": "Junior Product Manager",
+			"location": "Stockholm, Sweden",
+			"from": "2021.04",
+			"to": "2022.11",
+			"description": "Some description"
+		},
+		{
+			"company": "Happy Socks",
+			"title": "Online Merchandising Coordinator",
+			"location": "Stockholm, Sweden",
+			"from": "2017.07",
+			"to": "2021.04",
+			"description": "Some description"
+		},
+		{
+			"company": "Acne Studios",
+			"title": "Product Developer (Internship)",
+			"location": "Stockholm, Sweden",
+			"from": "2016.10",
+			"to": "2017.04",
+			"description": "Some description"
+		}
+	],
+
+	"developerSkills": [
+		{
+			"name": "C#"
+		},
+		{
+			"name": "JS"
+		},
+		{
+			"name": "HTML"
+		},
+		{
+			"name": "CSS"
+		},
+		{
+			"name": "SQL"
+		},
+		{
+			"name": "REST API"
+		},
+		{
+			"name": "React.js"
+		},
+		{
+			"name": "Node.js"
+		},
+		{
+			"name": "Git"
+		}
+	],
+
+	"miscSkills": [
+		{
+			"name": "Project Management"
+		},
+		{
+			"name": "Excel"
+		},
+		{
+			"name": "Google Analytics"
+		},
+		{
+			"name": "Power BI"
+		},
+		{
+			"name": "Figma"
+		},
+		{
+			"name": "Illustrator"
+		}
+	]
+}

@@ -1,0 +1,5 @@
+.about-me {
+	display: flex;
+	flex-direction: column;
+	margin-right: 40em;
+}

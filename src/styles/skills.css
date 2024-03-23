@@ -1,0 +1,7 @@
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin-top: 2rem;
+    right: 0;
+}
