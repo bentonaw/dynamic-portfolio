@@ -9,7 +9,7 @@ import MainPage from "./pages/Main/MainPage";
 
 function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/dynamic-portfolio">
 			<Routes>
 				<Route path="/" element={<Layout/>}>
 
