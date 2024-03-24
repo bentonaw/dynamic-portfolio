@@ -1,1 +1,12 @@
-export default function Portfolio() {}
+import React from 'react'
+import Projects from './Projects'
+
+const Portfolio = () => {
+  return (
+    <div>
+        <Projects/>
+    </div>
+  )
+}
+
+export default Portfolio
