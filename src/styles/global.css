@@ -14,9 +14,14 @@ h3 {
 	font-size: 2rem;
 }
 
-p,
-li,
+
 a {
+	font-family: "ClashDisplay-Bold";
+}
+
+p,
+li
+{
 	font-family: "CabinetGrotesk-Regular";
 }
 
@@ -34,8 +39,8 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 }
-/* .splash {
-	height: 100vh;
+ /* .splash {
+	height: 20vh;
 	margin: 0rem;
 	overflow: hidden;
 
@@ -44,108 +49,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-}
-
-@keyframes rotate {
-	from {
-		rotate: 0deg;
-	}
-
-	50% {
-		scale: 1 1.5;
-	}
-
-	to {
-		rotate: 360deg;
-	}
-}
-
-#blob {
-	background-color: white;
-	height: 300vmax;
-	aspect-ratio: 1;
-	position: fixed;
-	left: 50%;
-	top: 100%;
-	translate: -50% -50%;
-	border-radius: 50%;
-	background: linear-gradient(
-		to right,
-		rgb(255, 255, 254),
-		rgb(168, 150, 113),
-		rgb(32, 24, 6)
-	);
-	animation: rotate 6s infinite;
-	opacity: 0.4;
-	z-index: -2;
-	overflow: hidden;
-}
-
-.blur {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	z-index: -1;
 } */
 
-#logo {
-	color: black;
-	font-size: 1.8em;
-	white-space: nowrap;
-}
 
-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0.8em 1em;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	border: 1px solid #333;
-	z-index: 2;
-}
 
-header ul {
-	display: flex;
-	list-style-type: none;
-}
-
-header a {
-	text-decoration: none;
-	border: 2px solid transparent; /* Transparent border to not have the menu options shift when active */
-	border-radius: 30px;
-	padding: 0.3em 0.5em;
-}
-
-header a:hover {
-	box-shadow: 2.5px 2.5px 0 0 rgba(0, 0, 0, 0.2);
-	border-color: #929292;
-	border-radius: 30px;
-}
-.menu-options {
-	display: flex;
-}
-
-li a {
-	margin: 0 1em;
-	font-size: 18px;
-}
-
-.active {
-	border-color: #333;
-	border-radius: 30px;
-	padding: 0.3em 0.5em;
-}
-
-#nav-toggle {
-	display: none;
-}
-
-.burger-menu {
-	display: none;
-}
 
 .page-divider {
 	margin: 5% 0%;

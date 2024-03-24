@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -28,14 +28,17 @@ function Projects() {
 			});
 	}, []);
 	if (isLoading) {
-		return;
-		<PulseLoader color="#959595" margin={2} />;
+		return (
+			<>
+				<PulseLoader color="#959595" margin={2} />
+			</>
+		);
 	}
 	return (
 		<div>
 			{repos.map((repo) => {
 				return (
-					<Card style={{ width: "18rem" }}>
+					<Card key={repo.id} style={{ width: "18rem" }}>
 						<Card.Img variant="top" src="holder.js/100px180" />
 						<Card.Body>
 							<Card.Title>

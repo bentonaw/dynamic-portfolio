@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import "../styles/header.css";
 
 export default function Header() {
 	return (
 		<header>
 			<HashLink to="/" id="logo">
-				Huan
+				Huan&apos;s page
 			</HashLink>
 			<nav className="menu-options">
 				<label htmlFor="nav-toggle" className="nav-toggle-label">
