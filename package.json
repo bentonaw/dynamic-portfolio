@@ -1,5 +1,4 @@
 {
-
 	"homepage": "https://githubbentonaw.github.io/dynamic",
 	"name": "dynamic-portfolio",
 	"private": true,
@@ -34,5 +33,4 @@
 		"gh-pages": "^6.1.1",
 		"vite": "^5.1.6"
 	}
-
 }
