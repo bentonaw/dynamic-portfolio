@@ -3,18 +3,13 @@ import Education from "./Education";
 import DevSkills from "../Skills/DevSkills";
 import MiscSkills from "../Skills/MiscSkills";
 import Experience from "./Experience";
+import Summary from "./Summary";
 
-export default function About() {
-	return (
-		<section className="about-me">
-			<h2>About Me:</h2>
+const About = () => {
+  return (
+	<section className="about-me">
 			<div>
-				<p>
-					I am a web developer with a passion for creating beautiful and
-					functional websites. I have experience with HTML, CSS, JavaScript,
-					React, and Node.js. I am always looking to learn new technologies and
-					improve my skills.
-				</p>
+				<Summary />
 			</div>
 			<div>
 				<Education />
@@ -31,5 +26,7 @@ export default function About() {
 				</div>
 			</div>
 		</section>
-	);
+  )
 }
+
+export default About
