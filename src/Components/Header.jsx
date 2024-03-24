@@ -1,11 +1,12 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function Header() {
 	return (
 		<header>
-			<Link to="/" id="logo">
+			<HashLink to="/" id="logo">
 				Huan
-			</Link>
+			</HashLink>
 			<nav className="menu-options">
 				<label htmlFor="nav-toggle" className="nav-toggle-label">
 					Toggle Navigation
@@ -13,18 +14,18 @@ export default function Header() {
 				<input type="checkbox" id="nav-toggle" />
 				<ul className="header-menu">
 					<li>
-						<NavLink to="/">Main</NavLink>
+						<HashLink smooth to="#main">
+							Main
+						</HashLink>
 					</li>
 					<li>
-						<NavLink to="/about" className="active">
-							About
-						</NavLink>
+						<HashLink smooth to="#about-me">About</HashLink>
 					</li>
 					<li>
-						<NavLink to="/portfolio">Portfolio</NavLink>
+						<HashLink smooth to="#portfolio">Portfolio</HashLink>
 					</li>
 					<li>
-						<NavLink to="/contact">Contact</NavLink>
+						<HashLink smooth to="#contact">Contact</HashLink>
 					</li>
 				</ul>
 			</nav>
