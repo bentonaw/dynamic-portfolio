@@ -1,8 +1,12 @@
 
+import React from 'react'
+import Projects from './Projects'
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <div>
+        <Projects/>
+    </div>
   )
 }
 
