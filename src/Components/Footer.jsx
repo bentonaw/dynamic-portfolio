@@ -4,10 +4,11 @@ const Footer = () => {
 	return (
 		<footer>
 			<nav className="footer-nav">
-				<p> &copy 2024 Huan Yang Ooi </p>
+				<p> &copy; 2024 Huan Yang Ooi</p>
 				<ul className="footer-socials">
 					<li>
-						<Link to="https://github.com/bentonaw"
+						<Link
+							to="https://github.com/bentonaw"
 							target="_blank"
 							rel="noopener noreferrer"
 							title="link to github"
@@ -16,7 +17,8 @@ const Footer = () => {
 						</Link>
 					</li>
 					<li>
-						<Link to="https://www.linkedin.com/in/huan-yang-ooi-74a824127/"
+						<Link
+							to="https://www.linkedin.com/in/huan-yang-ooi-74a824127/"
 							target="_blank"
 							rel="noopener noreferrer"
 							title="link to linkedin"
@@ -25,7 +27,8 @@ const Footer = () => {
 						</Link>
 					</li>
 					<li>
-						<Link to="https://www.instagram.com/yoedmund/"
+						<Link
+							to="https://www.instagram.com/yoedmund/"
 							target="_blank"
 							rel="noopener noreferrer"
 							title="link to instagram"
