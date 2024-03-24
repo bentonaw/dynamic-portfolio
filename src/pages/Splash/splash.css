@@ -1,5 +1,5 @@
 .splash {
-	height: 100vh;
+	height: 50vh;
 	margin: 0rem;
 	overflow: hidden;
 	z-index: 2;
@@ -11,14 +11,14 @@
 
 #scroll-down-animation {
 	position: absolute;
-	bottom: -8%;
+	bottom: -6%;
 	left: 50%;
 	scale: 0.6;
 	transform: translate(-50%, -50%);
 }
 
 h2.scroll {
-	color: #eb1616;
+	color: #333;
 	font-family: "Roboto", "Arial", sans-serif;
 	font-weight: 200;
 	font-size: 18px;
@@ -28,7 +28,7 @@ h2.scroll {
 	margin: 0 auto;
 	display: block;
 	border-radius: 50px;
-	border: 2px solid #f71212;
+	border: 2px solid #333;
 	height: 100px;
 	width: 50px;
 	position: relative;
@@ -36,7 +36,7 @@ h2.scroll {
 
 .move {
 	position: absolute;
-	background-color: #db2020;
+	background-color: #333;
 	height: 10px;
 	width: 10px;
 	border-radius: 50%;
@@ -58,4 +58,53 @@ h2.scroll {
 		transform: translate(-50%, 80px);
 		opacity: 0;
 	}
+}
+
+
+@keyframes rotate {
+	from {
+		rotate: 0deg;
+	}
+
+	50% {
+		scale: 1 1.5;
+	}
+
+	to {
+		rotate: 360deg;
+	}
+}
+
+#blob {
+	background-color: white;
+	height: 300vmax;
+	aspect-ratio: 1;
+	position: fixed;
+	left: 50%;
+	top: 100%;
+	translate: -50% -50%;
+	border-radius: 50%;
+	background: linear-gradient(
+		to right,
+		rgb(255, 255, 254),
+		rgb(168, 150, 113),
+		rgb(32, 24, 6)
+	);
+	animation: rotate 6s infinite;
+	opacity: 0.4;
+	z-index: -2;
+	overflow: hidden;
+}
+
+.blur {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.fade-out {
+  transition: opacity 0.3s, visibility 0.3s;
+  opacity: 0;
+  visibility: hidden;
 }
