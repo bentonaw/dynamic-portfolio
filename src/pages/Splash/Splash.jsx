@@ -39,12 +39,10 @@ const Splash = () => {
 	return (
 		<section className="splash">
 			<div id="blob" ref={blobRef}></div>
-			<h1>Welcome to My Portfolio</h1>
+			<h1>HUAN YANG OOI</h1>
+			<h2>SOFTWARE DEVELOPER</h2>
 			<p>
-				I am a web developer with a passion for creating beautiful and
-				functional websites. I have experience with HTML, CSS, JavaScript,
-				React, and Node.js. I am always looking to learn new technologies and
-				improve my skills.
+				Keep in mind that this page is still under constrction :)
 			</p>
 			<div id="scroll-down-animation" className={isScrolled ? "fade-out" : ""}>
 				<span className="mouse">
