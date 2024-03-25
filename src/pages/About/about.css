@@ -1,5 +1,32 @@
-.about-me {
+/* about styling */
+
+.about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10% 0 10% 0;
+}
+/* .about-me {
+	list-style-type: none;
 	display: flex;
 	flex-direction: column;
 	margin-right: 40em;
+} */
+
+/* summary styling */
+
+.summary {
+	display: flex;
+	flex-direction: column;
+}
+
+/* experience styling */
+.accordion {
+	width: 75%;
+	margin: 0 auto;
+}
+.experience-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 }
