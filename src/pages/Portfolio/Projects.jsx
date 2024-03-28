@@ -39,7 +39,7 @@ function Projects() {
 			{repos.map((repo) => {
 				return (
 					<Card key={repo.id} style={{ width: "18rem" }}>
-						<Card.Img variant="top" src="holder.js/100px180" />
+						<Card.Img variant="top" src={repo.image} />
 						<Card.Body>
 							<Card.Title>
 								<h3>Project:</h3>

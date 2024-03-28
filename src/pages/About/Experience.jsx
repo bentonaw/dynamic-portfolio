@@ -21,7 +21,7 @@ import "./about.css";
 
 function Experience() {
 	return (
-		<Accordion className="accordion">
+		<Accordion className="experience">
 			{data.experience.map((experience, index) => (
 				<Accordion.Item key={index} eventKey={index} className="accordion">
 					<Accordion.Header>

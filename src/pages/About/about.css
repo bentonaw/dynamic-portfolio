@@ -23,10 +23,21 @@
 /* experience styling */
 .accordion {
 	width: 75%;
-	margin: 0 auto;
+	margin: 0 0;
 }
 .experience-header {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+}
+
+/* education styling */
+.education {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 0 70%;
+	padding: 2rem 0;
+	width: 30%;
+	max-width: 1200px;
 }

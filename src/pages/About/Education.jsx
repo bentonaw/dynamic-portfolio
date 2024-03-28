@@ -1,5 +1,6 @@
 import data from "../../assets/data.json";
 import "../../styles/card.css";
+import "./about.css";
 
 const Education = () => {
   return (
