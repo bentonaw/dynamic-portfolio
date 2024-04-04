@@ -16,7 +16,6 @@ const Splash = () => {
 			"clashdisplay-bold",
 			"verdana",
 			"cabinetgrotesk-extrabold",
-			"panchang-light",
 		];
 		let currentFont = 0;
 

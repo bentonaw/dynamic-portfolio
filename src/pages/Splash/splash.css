@@ -36,9 +36,9 @@
 
 #scroll-down-animation {
 	position: absolute;
-	bottom: -12%;
+	bottom: -17.5%;
 	left: 50%;
-	scale: 0.6;
+	scale: 0.5;
 	transform: translate(-50%, -50%);
 }
 

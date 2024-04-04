@@ -1,11 +1,14 @@
 import { HashLink } from "react-router-hash-link";
 import { useEffect, useState } from "react";
 import "../styles/header.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
 	const [color, setColor] = useState("white");
 
 	useEffect(() => {
+		// Get the background color of the body
 		const backgroundColor = getComputedStyle(document.body).backgroundColor;
 		const [r, g, b] = backgroundColor.match(/\d+/g).map(Number);
 
@@ -13,6 +16,24 @@ export default function Header() {
 		const isDarkBackground = r * 0.299 + g * 0.587 + b * 0.114 < 186;
 
 		setColor(isDarkBackground ? "white" : "black");
+
+		// Close the mobile menu when a link is clicked
+		const handleLinkClick = () => {
+			const navToggle = document.getElementById("nav-toggle");
+			if (navToggle) {
+				navToggle.checked = false;
+			}
+		};
+		const links = document.querySelectorAll(".header-menu a");
+		links.forEach((link) => {
+			link.addEventListener("click", handleLinkClick);
+		});
+
+		return () => {
+			links.forEach((link) => {
+				link.removeEventListener("click", handleLinkClick);
+			});
+		};
 	}, []);
 
 	return (
@@ -50,7 +71,7 @@ export default function Header() {
 			</nav>
 			<div className="burger-menu" style={{ color: color }}>
 				<label htmlFor="nav-toggle">
-					<i className="fa-solid fa-bars"></i>
+					<FontAwesomeIcon icon={faBars} />
 				</label>
 			</div>
 		</header>
