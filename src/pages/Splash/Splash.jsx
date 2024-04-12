@@ -12,10 +12,10 @@ const Splash = () => {
 		window.addEventListener("scroll", handleScroll);
 
 		const fonts = [
-			"times",
-			"clashdisplay-bold",
-			"verdana",
-			"cabinetgrotesk-extrabold",
+			// "clashdisplay-bold",
+			// "cabinetgrotesk-extrabold",
+			"panchang-bold",
+			"panchang-light",
 		];
 		let currentFont = 0;
 
@@ -24,7 +24,7 @@ const Splash = () => {
 				h2Ref.current.style.fontFamily = fonts[currentFont++ % fonts.length];
 			}
 		}
-		const intervalId = setInterval(changeFont, 300);
+		const intervalId = setInterval(changeFont, 600);
 
 		// Clean up the event listener when the component unmounts
 		return () => {
@@ -37,7 +37,7 @@ const Splash = () => {
 		<section className="splash">
 			<h1>Huan Yang Ooi</h1>
 			<h2 ref={h2Ref}>Software Developer</h2>
-			<p>Keep in mind that this page is still under constrction :)</p>
+			<p className="splashText">Keep in mind that this page is still under constrction :)</p>
 			<div id="scroll-down-animation" className={isScrolled ? "fade-out" : ""}>
 				<span className="mouse">
 					<span className="move"></span>

@@ -24,14 +24,18 @@
 }
 
 .splash h1 {
-	font-size: 4rem;
+	font-size: 9rem;
 	padding-bottom: 2.5rem;
 	padding-top: 20%;
 }
 
 .splash h2 {
-	font-size: 3.5rem;
+	font-size: 5rem;
 	padding-bottom: 8rem;
+}
+
+h2 {
+	transition: opacity 0.5s ease-in-out;
 }
 
 #scroll-down-animation {
