@@ -5,6 +5,7 @@ import "./about.css";
 const Education = () => {
   return (
 		<div className="education">
+			<h2>Education:</h2>
 			{data.education.map((education, index) => (
 				<div key={index} className="card">
 					<h2>{education.school}</h2>

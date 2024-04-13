@@ -7,16 +7,19 @@ import Summary from "./Summary";
 
 const About = () => {
   return (
-	<section className="about-me">
+		<section className="about-me">
 			<div>
 				<Summary />
 			</div>
+			<div className="space"></div>
 			<div>
 				<Education />
 			</div>
+			<div className="space"></div>
 			<div>
 				<Experience />
 			</div>
+			<div className="space"></div>
 			<div className="skills">
 				<div>
 					<DevSkills />
@@ -26,7 +29,7 @@ const About = () => {
 				</div>
 			</div>
 		</section>
-  )
+	);
 }
 
 export default About
