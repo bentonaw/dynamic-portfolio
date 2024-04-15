@@ -73,7 +73,7 @@ const Summary = () => {
 				start: "top center",
 				endTrigger: ".summaryText",
 				end: "top 45%",
-				markers: true,
+				// markers: true,
 				toggleActions: "restart pause reverse pause",
 				scrub: 3,
 			},
