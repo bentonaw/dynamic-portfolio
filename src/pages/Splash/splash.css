@@ -40,7 +40,7 @@ h2 {
 
 #scroll-down-animation {
 	position: absolute;
-	bottom: -17.5%;
+	bottom: -18%;
 	left: 50%;
 	scale: 0.5;
 	transform: translate(-50%, -50%);

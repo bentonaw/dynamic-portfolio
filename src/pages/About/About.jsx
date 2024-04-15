@@ -11,15 +11,17 @@ const About = () => {
 			<div>
 				<Summary />
 			</div>
-			<div className="space"></div>
+			<div className="space summarySpace"></div>
 			<div>
 				<Education />
 			</div>
-			<div className="space"></div>
+			<div className="space educationSpace">
+				<div className="educationSpaceStart"> </div>
+			</div>
 			<div>
 				<Experience />
 			</div>
-			<div className="space"></div>
+			<div className="space experienceSpace"></div>
 			<div className="skills">
 				<div>
 					<DevSkills />
