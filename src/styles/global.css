@@ -108,6 +108,10 @@ footer {
 	color: #929292;
 }
 
+.footer-nav p {
+	color: #fcfcfc;
+}
+
 @keyframes banner {
 	0% {
 		transform: translate(0, 0);
@@ -207,7 +211,7 @@ footer {
 /* landingpage styling */
 
 .welcome {
-	font-family: "ClashDisplay-bold";
+	font-family: "ClashDisplay-Bold";
 	font-weight: 500;
 	font-size: 12vw;
 	z-index: 1;

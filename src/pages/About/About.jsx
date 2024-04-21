@@ -1,7 +1,6 @@
-import "../Skills/skills.css";
+
 import Education from "./Education";
-import DevSkills from "../Skills/DevSkills";
-import MiscSkills from "../Skills/MiscSkills";
+import Skills from "../../pages/Skills/Skills";
 import Experience from "./Experience";
 import Summary from "./Summary";
 
@@ -22,12 +21,9 @@ const About = () => {
 				<Experience />
 			</div>
 			<div className="space experienceSpace"></div>
-			<div className="skills">
+			<div className="skillsContainer">
 				<div>
-					<DevSkills />
-				</div>
-				<div>
-					<MiscSkills />
+					<Skills />
 				</div>
 			</div>
 		</section>

@@ -7,23 +7,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// const Experience = () => {
-//   return (
-// 		<div className="experience">
-// 			{data.experience.map((experience, index) => (
-// 				<div key={index} className="card">
-// 					<h2>{experience.company}</h2>
-// 					<p>{experience.title}</p>
-// 					<p>{`${experience.from} - ${experience.to}`}</p>
-// 					<p>{experience.location}</p>
-// 				</div>
-// 			))}
-// 		</div>
-// 	);
-// }
-
-// export default Experience
-
 function Experience() {
 	useEffect(() => {
 		const tlExp = gsap.timeline({
@@ -31,7 +14,7 @@ function Experience() {
 				trigger: ".educationSpace",
 				start: "top center",
 				end: "bottom center",
-				markers: true,
+				// markers: true,
 				toggleActions: "restart pause reverse pause",
 				scrub: 3,
 			},
@@ -60,7 +43,7 @@ function Experience() {
 					trigger: ".experienceTitle",
 					start: "top center",
 					end: "bottom center",
-					markers: true,
+					// markers: true,
 					toggleActions: "restart pause reverse pause",
 					scrub: 3,
 				},

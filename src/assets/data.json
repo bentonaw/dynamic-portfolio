@@ -54,7 +54,13 @@
 			"name": "C#"
 		},
 		{
-			"name": "JS"
+			"name": "SQL"
+		},
+		{
+			"name": "React.js"
+		},
+		{
+			"name": "JavaScript"
 		},
 		{
 			"name": "HTML"
@@ -63,13 +69,7 @@
 			"name": "CSS"
 		},
 		{
-			"name": "SQL"
-		},
-		{
 			"name": "REST API"
-		},
-		{
-			"name": "React.js"
 		},
 		{
 			"name": "Node.js"

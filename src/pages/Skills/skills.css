@@ -1,7 +1,21 @@
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .skills {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
+	overflow: hidden;
 	margin-top: 2rem;
-    right: 0;
+	right: 0;
+	width: 100%;
+}
+
+.title {
+	margin: 5% 0 0 0;
+}
+
+.card {
+	flex: 0 0 auto; /* Prevents the cards from stretching to fill the container */
+	margin-right: 1em; /* Adds some space between the cards */
 }
