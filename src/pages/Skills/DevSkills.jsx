@@ -32,7 +32,7 @@ function DevSkills() {
 					start: "top 55%",
 					end: "top 45%",
 					endTrigger: ".skillsMisc",
-					markers: true,
+					// markers: true,
 					toggleActions: "restart pause reverse pause",
 					scrub: true,
 				},
