@@ -12,8 +12,7 @@ const Splash = () => {
 		window.addEventListener("scroll", handleScroll);
 
 		const fonts = [
-			// "clashdisplay-bold",
-			// "cabinetgrotesk-extrabold",
+
 			"panchang-bold",
 			"panchang-light",
 		];
