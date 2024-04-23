@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 25vh;
 }
 .contact h2 {
     font-size: 5rem;
-
+    padding-top: 5%;
 }
 
 .contactlinks {

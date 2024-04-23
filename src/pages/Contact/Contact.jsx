@@ -19,7 +19,6 @@ const Contact = () => {
 						</a>
 					</div>
 				</section>
-				<div className="contact"></div>
 			</div>
 		</div>
 	);
