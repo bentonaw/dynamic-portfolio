@@ -36,7 +36,7 @@ const Splash = () => {
 		<section className="splash">
 			<h1>Huan Yang Ooi</h1>
 			<h2 ref={h2Ref}>Software Developer</h2>
-			<p className="splashText">Keep in mind that this page is still under constrction :)</p>
+			<p className="splashText">Still under constrction :(</p>
 			<div id="scroll-down-animation" className={isScrolled ? "fade-out" : ""}>
 				<span className="mouse">
 					<span className="move"></span>
